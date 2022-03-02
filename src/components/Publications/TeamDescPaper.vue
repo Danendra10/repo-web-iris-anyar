@@ -13,7 +13,7 @@
         </v-col>
 
         <v-col class="d-flex justify-end ">
-          <a href="file:///../../../public/Publications/Files/Team_Description_Paper_IRIS_2021.pdf" target="_blank">
+          <a href="/Publications/Files/Team_Description_Paper_IRIS_2021.pdf" target="_blank">
             <v-btn
               depressed
               color="#6DDCCF"

@@ -2,11 +2,11 @@
   <div style="padding: 50px 100px">
     <v-row>
       <v-col class="d-flex align-center col-lg-6">
-        <img src="../../../public/Achivements/divs-left.png" alt="" class="" />
+        <img src="../../../public/assets/Achivements/divs-left.png" alt="" class="" />
       </v-col>
 
       <v-col class="d-flex justify-end col-lg-6">
-        <img src="../../../public/Achivements/its-dll.png" alt="" />
+        <img src="../../../public/assets/Achivements/its-dll.png" alt="" />
       </v-col>
     </v-row>
   </div>

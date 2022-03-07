@@ -15,19 +15,19 @@ export default {
       headBottom: [
         {
           id: 1,
-          src: require("../../../public/Achivements/star3.png"),
+          src: require("../../../public/assets/Achivements/star3.png"),
         },
         {
           id: 2,
-          src: require("../../../public/Achivements/star4.png"),
+          src: require("../../../public/assets/Achivements/star4.png"),
         },
         {
           id: 3,
-          src: require("../../../public/Achivements/Vector.png"),
+          src: require("../../../public/assets/Achivements/Vector.png"),
         },
         {
           id: 4,
-          src: require("../../../public/Achivements/star5.png"),
+          src: require("../../../public/assets/Achivements/star5.png"),
         },
       ],
     };

@@ -313,7 +313,6 @@ form {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 60px;
   line-height: 60px;
 
   color: #ffffff;

@@ -7,7 +7,7 @@
       class="d-flex flex-column align-center justify-center pt-4">
         <div class="event-text container ">
           <h2>What IRIS on right now?</h2>
-          <h2 id="event-special">IRIS on</h2>
+          <h3 id="event-special">IRIS on</h3>
         </div>
         <div class="container">
           <v-img
@@ -22,9 +22,7 @@
 
       <v-col cols="5" xl="5">
         <p id="event-text-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quidem necessitatibus exercitationem officia debitis. Necessitatibus iste rerum excepturi consectetur, veniam nesciunt laboriosam itaque tenetur dolorum, libero corrupti cupiditate exercitationem minus!
-
-          <!-- KRI (Kontes Robot Indonesia) is Indonesia's yearly competition for Indonesian college students.  -->
+          RoboCup is an annual international competition that was founded in 1997. RoboCup activities are participated by strong teams from all continents. The purpose of this competition is to develop a team of fully autonomous robots to fight against human teams in the FIFA World Cup targeted at 2050. 
         </p>
       </v-col>
     </v-row>
@@ -128,7 +126,7 @@ p#event-text-text {
 h2#event-special{
   left: 18vw;
 }
-@media only screen and (max-width: 1400px) 
+@media only screen and (min-width: 1400px) 
 {
   h2#event-special{
     display: none;
@@ -137,7 +135,7 @@ h2#event-special{
     margin-top: 100px;
   }
 } 
-@media only screen and (max-width: 1200px) 
+@media only screen and (min-width: 1200px) 
 {
   h2#event-special{
     display: none;
@@ -147,7 +145,7 @@ h2#event-special{
   }
 } 
 
-@media only screen and (max-width: 992px) 
+@media only screen and (min-width: 992px) 
 {
   h2#event-special{
     display: none;
@@ -158,7 +156,7 @@ h2#event-special{
 
 }
 
-@media only screen and (max-width: 768px) 
+@media only screen and (min-width: 768px) 
 {
   h2#event-special{
     display: none;
@@ -174,7 +172,7 @@ h2#event-special{
   }
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (min-width: 600px) 
 {
   h2#event-special{
     display: none;
@@ -182,7 +180,28 @@ h2#event-special{
   #on-event{
     margin-top: 50vw;
   }
+  .event-text h2{
+    font-size: 60px;
+  }
+  .event-text-text{
+    font-size: 30px;
+  }
+}
 
+@media only screen and (max-width: 600px)
+{
+  #event-special{
+    display: none;
+  }
+  #on-event{
+    margin-top: 50vw;
+  }
+  .event-text h2{
+    font-size: 60px;
+  }
+  .event-text-text{
+    font-size: 30px;
+  }
 }
 
 </style>

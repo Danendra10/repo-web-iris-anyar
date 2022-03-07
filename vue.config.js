@@ -42,5 +42,12 @@ module.exports = {
       title: "ContactUs",
       chunks: ["chunk-vendors", "chunk-common", "ContactUs"]
     },
+    Robocup2022:{
+      entry: "src/main.js",
+      template: "public/index.html",
+      filename: "Robocup-2022.html",
+      title: "Robocup 2022",
+      chunks: ["chunk-vendors", "chunk-common", "Robocup 2022"]
+    },
   }
 }

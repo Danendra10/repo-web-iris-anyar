@@ -45,9 +45,7 @@ h1 {
     color: #120d31;
 }
 p {
-    font-family: sans-serif !important;
     font-style: normal;
-    font-weight: lighter;
     font-size: 2vw;
     line-height: 50px;
     text-align: justify;

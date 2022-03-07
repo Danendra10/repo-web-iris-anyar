@@ -30,9 +30,9 @@
                   class="toSpinOnScroll"
                 />
               </div>
-              <div class="cards-content d-flex flex-column align-items-center">
-                <h4 class="pt-2">{{ i.name }}</h4>
-                <h5 style="color: #000">
+              <div class="cards-content d-flex flex-column align-items-center justify-center">
+                <h4 class="">{{ i.name }}</h4>
+                <h5 style="color: #fff" class="">
                   {{ i.desc }}
                 </h5>
               </div>
@@ -86,6 +86,9 @@ export default {
 <style>
 *{
   font-family: Montserrat!important;
+}
+.row{
+  margin: 0!important;
 }
 .cards {
   position: relative;

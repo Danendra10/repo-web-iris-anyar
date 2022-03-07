@@ -7,7 +7,11 @@
     </div>
 
     <v-row class="p-relative">
-      <v-col cols="6" lg="6" sm="12" xs="12" class="left-content">
+      <v-col xl="6"
+        lg="6"
+        md="12"
+        sm="12"
+         class="left-content">
         <p>
           ITS' Robot with Intellegence System, or known as IRIS is Institut
           Teknologi Sepuluh Nopember (ITS) Robotic team focusing on autonomous
@@ -21,7 +25,11 @@
         </p>
       </v-col>
 
-      <v-col cols="6" lg="6" sm="12" xs="12" class="right-content">
+      <v-col xl="6"
+        lg="6"
+        md="12"
+        sm="12"
+         class="right-content">
         <h2>What is</h2>
         <h2 class="mt-5">IRIS?</h2>
         <!-- <div class="robo-pos">
@@ -34,7 +42,7 @@
             class=""
           />
         </div> -->
-        <img src="../../../public/Home/AboutTeam/Group1.png" alt="" style=" transform: scale(1.5); float: right;">
+        <img src="../../../public/Home/AboutTeam/Group1.png" alt="" style=" transform: scale(1.5); float: right;" class="robot-kanan">
       </v-col>
     </v-row>
   </div>
@@ -104,7 +112,6 @@ left: 0;
 .left-content p {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: lighter !important;
   font-size: 2vw;
   line-height: 60px;
   text-align: justify;
@@ -115,7 +122,6 @@ left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5%;
 }
 
 .right-content h2 {
@@ -153,6 +159,23 @@ left: 0;
   top: 580px;
   left: 520px;
   z-index: 3;
+}
+@media only screen and (max-width: 600px) 
+{
+  /* .robot-kanan{
+    transform: scale(1);
+    overflow:hidden;
+    
+  } */
+  .right-content{
+    display: none;
+  }
+  .right-aboutteam{
+    width: 10%;
+  }
+  .p-relative{
+    max-width: 80%;
+  }
 }
   /* @media (max-width: 1400px) {
     .robo {

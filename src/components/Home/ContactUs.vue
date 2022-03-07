@@ -1,10 +1,10 @@
 <template>
   <div class="text-center cta-area2 margin-top">
     <p class="p-contact text-center">For Further Information</p>
-    <h2 class="h2-contact">You Can Contact Us On</h2>
+    <h2 class="h2-contact-home">You Can Contact Us On</h2>
     <a
       href="./contactus"
-      class="button strip"
+      class="button"
       style="text-decoration: none"
       >Click Here!!</a
     >
@@ -119,7 +119,7 @@ export default {};
   line-height: 22px;
 }
 
-.h2-contact {
+.h2-contact-home {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -132,7 +132,7 @@ export default {};
   margin-bottom: 2%;
 }
 
-@media only screen and (max-width: 600px)
+/* @media only screen and (max-width: 600px)
 {
   .h2-contact{
     font-size: 40px;
@@ -141,6 +141,26 @@ export default {};
   .p-contact{
     font-size: 20px;
     line-height: 40px;   
+  }
+} */
+
+@media only screen and (max-width: 600px){
+  .p-contact{
+    font-size: 2vw;
+    font-weight: 400;
+  }
+  .h2-contact-home{
+    font-size: 3vw;
+    font-weight: 400;
+  }
+  .strip::before{
+    display: none;
+  }
+  .strip::after{
+    display: none;
+  }
+  .cta-area2 {
+    padding: 100px 0 100px;
   }
 }
 

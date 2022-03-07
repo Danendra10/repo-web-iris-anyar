@@ -179,10 +179,19 @@ export default {
   // position: absolute;
   // top: 281px;
   border-radius: 2%;
+  @media only screen and  (min-width: 1400px) {
+  }
+  @media only screen and  (min-width: 1200px) {
+  }
+  @media only screen and (min-width: 992px) {
+  }
   @media only screen and (min-width: 768px) {
-    // position: absolute;
-    // top: 0px;
-    // left: 0px;
+  }
+  @media only screen and (min-width: 600px) {
+  }
+  @media only screen and (max-width: 600px) {
+    max-width: 300px;
+    max-height: 200px;
   }
 }
 
@@ -206,8 +215,8 @@ export default {
     // display: none !important;
   }
   @media only screen and (max-width: 600px) {
-    // padding: 0 0px;
-    display: none !important;
+    padding: 0 25%;
+    // display: none !important;
   }
   // @media(max-width: 631px){
   //   margin-top: 100px
@@ -217,4 +226,5 @@ export default {
   //   margin-top: 80px;
   // }
 }
+
 </style>

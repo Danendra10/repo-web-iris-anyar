@@ -22,17 +22,9 @@
 
       <v-col cols="5" xl="5">
         <p id="event-text-text">
-          Kontes Robot Indonesia (KRI) adalah kegiatan kompetisi rancang bangun
-          dan rekayasa dalam bidang robotika tahunan bagi mahasiswa dari
-          perguruan tinggi negeri dan swasta di Tanah Air yang diselenggarakan
-          oleh Pusat Prestasi Nasional Kementerian Pendidikan, Kebudayaan,
-          Riset, dan Teknologi. Tim IRIS ITS sendiri akan bertanding dalam
-          divisi KRSBI Beroda. KRI 2021 diadakan secara pertahap yakni seleksi
-          proposal dan yang lolos akan maju seleksi di tingkat wilayah setelah
-          itu masuk ke KRI tingkat nasional. Tahun ini IRIS berhasil meraih
-          gelar juara peringkat 2 pada KRSBI Beroda dan siap berlaga dalam KRI
-          2021 tingkat nasional pada bulan oktober ini. Info selengkapnya dapat
-          mengunjungi Instagram @iris.itsrobotic.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quidem necessitatibus exercitationem officia debitis. Necessitatibus iste rerum excepturi consectetur, veniam nesciunt laboriosam itaque tenetur dolorum, libero corrupti cupiditate exercitationem minus!
+
+          <!-- KRI (Kontes Robot Indonesia) is Indonesia's yearly competition for Indonesian college students.  -->
         </p>
       </v-col>
     </v-row>
@@ -163,6 +155,34 @@ h2#event-special{
   #on-event{
     margin-top: 50vw;
   }
+
+}
+
+@media only screen and (max-width: 768px) 
+{
+  h2#event-special{
+    display: none;
+  }
+  #on-event{
+    margin-top: 50vw;
+  }
+  p#event-text-text{
+    line-height: 30px;
+  }
+  .event-text container h2{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) 
+{
+  h2#event-special{
+    display: none;
+  }
+  #on-event{
+    margin-top: 50vw;
+  }
+
 }
 
 </style>

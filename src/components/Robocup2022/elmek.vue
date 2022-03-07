@@ -1,44 +1,30 @@
 <template>
   <div>
-    <div class="top" style="margin-top: 70px">
-      <h1 class="teamDesc">Team Description Paper</h1>
-    </div>
-
-    <div>
-      <v-row style="padding: 0 60px; margin-top: 70px">
-        <v-col
-          class="top"
-          lg="10"
+    <div class="text-center cta-area-tdp d-flex flex-column py-5" style="height: 100%">
+      <h1 class="h1-contact-elmek text-center">Electrical Mechanical Description Paper</h1>
+      <h1 class="h1-contact-elmek text-center">2022</h1>
+      <!-- <h2 class="text-center margin-about strip">Download Here!!!</h2> -->
+      <a
+        href="/Publications/Files/TDP/ROBOCUP 2022_Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf"
+        target="_blank"
+        class="text-center margin-about strip"
+      >
+        <v-btn
+          depressed
+          color="#6DDCCF"
+          :loading="loading4"
+          :disabled="loading4"
+          @click="loader = 'loading4'"
+          lg="2"
           md="12"
+          rounded
+          Plain
           data-aos="fade-left"
           data-aos-duration="1000"
         >
-          Download the team description paper
-        </v-col>
-
-        <v-col class="d-flex justify-end">
-          <a
-            href="/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
-            target="_blank"
-          >
-            <v-btn
-              depressed
-              color="#6DDCCF"
-              :loading="loading4"
-              :disabled="loading4"
-              @click="loader = 'loading4'"
-              lg="2"
-              md="12"
-              rounded
-              Plain
-              data-aos="fade-left"
-              data-aos-duration="1000"
-            >
-              Download
-            </v-btn></a
-          >
-        </v-col>
-      </v-row>
+          Download
+        </v-btn></a
+      >
     </div>
   </div>
 </template>
@@ -81,7 +67,19 @@ export default {
 a {
   text-decoration: none;
 }
-
+.cta-area-tdp {
+  background: linear-gradient(
+      179.37deg,
+      rgba(21, 17, 49, 0.8) 60.07%,
+      rgba(134, 129, 168, 0) 100.03%
+    ),
+    url("../../../public/Home/kri-21.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center 70%;
+  position: relative;
+  z-index: 1;
+}
 .top .teamDesc {
   display: inline-block;
   font-size: 24px;
@@ -191,10 +189,10 @@ p {
     padding-left: 106px;
     font-size: 20px;
   }
-  .teamDesc::after{
+  .teamDesc::after {
     min-width: 50px;
   }
-  .teamDesc::before{
+  .teamDesc::before {
     min-width: 50px;
   }
 }
@@ -205,11 +203,18 @@ p {
     padding-left: 68px;
     font-size: 17px;
   }
-  .teamDesc::after{
+  .teamDesc::after {
     min-width: 50px;
   }
-  .teamDesc::before{
+  .teamDesc::before {
     min-width: 50px;
   }
+}
+
+.h1-contact-elmek{
+  color: #fff;
+  font-weight: bold!important;;
+  font-size: 30px;
+  letter-spacing: 30px;
 }
 </style>

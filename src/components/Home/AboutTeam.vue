@@ -6,8 +6,8 @@
       <div class="right-aboutteam ml-5"></div>
     </div>
 
-    <v-row>
-      <v-col cols="6" lg="6" sm="12" class="left-content">
+    <v-row class="p-relative">
+      <v-col cols="6" lg="6" sm="12" xs="12" class="left-content">
         <p>
           ITS' Robot with Intellegence System, or known as IRIS is Institut
           Teknologi Sepuluh Nopember (ITS) Robotic team focusing on autonomous
@@ -21,16 +21,20 @@
         </p>
       </v-col>
 
-      <v-col cols="6" lg="6" sm="12" class="right-content">
+      <v-col cols="6" lg="6" sm="12" xs="12" class="right-content">
         <h2>What is</h2>
         <h2 class="mt-5">IRIS?</h2>
-        <img
-          v-for="pict in rightRobo"
-          :key="pict.id"
-          :src="pict.src"
-          :class="pict.class"
-          style="transform: scale(1.5)"
-        />
+        <!-- <div class="robo-pos">
+          <img
+            v-for="pict in rightRobo"
+            :key="pict.id"
+            :src="pict.src"
+            :class="pict.class"
+            style="transform: scale(1.5)"
+            class=""
+          />
+        </div> -->
+        <img src="../../../public/Home/AboutTeam/Group1.png" alt="" style=" transform: scale(1.5); float: right;">
       </v-col>
     </v-row>
   </div>
@@ -66,10 +70,19 @@ export default {
 </script>
 
 <style>
-*{
-  font-family: Montserrat!important;
+.p-relative{
+  position: relative;
 }
-.separator{
+* {
+  font-family: Montserrat !important;
+}
+.robo-pos{
+position: absolute;
+top: 0;
+left: 0;
+  
+}
+.separator {
   margin-top: 5%;
 }
 .left-aboutteam {
@@ -117,7 +130,7 @@ export default {
   text-align: left;
 }
 
-.right-content{
+.right-content {
   position: relative;
 }
 
@@ -141,49 +154,84 @@ export default {
   left: 520px;
   z-index: 3;
 }
-@media (max-width: 1400px) {
-  .robo{
-    top: 418px;
-    left: 530px;
+  /* @media (max-width: 1400px) {
+    .robo {
+      top: 418px;
+      left: 530px;
+    }
+    .vector {
+      top: 688px;
+      left: 470px;
+    }
+    .roda {
+      top: 600px;
+      left: 300px;
+    }
   }
-  .vector{
-    top: 688px;
-    left: 470px;
+  @media (max-width: 1200px) {
+    .robo {
+      top: 318px;
+      left: 980px;
+    }
+    .vector {
+      top: 588px;
+      left: 870px;
+    }
+    .roda {
+      display: none;
+      top: 630px;
+      left: 550px;
+    }
   }
-  .roda{
-    top: 600px;
-    left: 300px;
-  }
-}
-@media (max-width: 1200px) {
-  .robo{
-    top: 318px;
-    left: 980px;
-  }
-  .vector{
-    top: 588px;
-    left: 870px;
-  }
-  .roda{
-    display: none;
-    top: 630px;
-    left: 550px;
-  }
-}
 
-@media only screen and (max-width: 992px)
-{
-  .robo{
-    top: 180px;
-    left: 800px;
+  @media only screen and (max-width: 992px) {
+    .robo {
+      top: 180px;
+      left: 800px;
+    }
+    .vector {
+      top: 450px;
+      left: 700px;
+    }
+    .roda {
+      top: 350px;
+      left: 600px;
+    }
   }
-  .vector{
-    top: 450px;
-    left: 700px;
+
+  @media only screen and (max-width: 768px) {
+    .robo {
+      top: 90px;
+      left: 550px;
+    }
+    .vector {
+      top: 350px;
+      left: 518px;
+    }
+    .roda {
+      top: 350px;
+      left: 600px;
+    }
+    .left-content p {
+      line-height: 30px;
+    }
   }
-  .roda{
-    top: 350px;
-    left: 600px;
-  }
-}
+
+  @media only screen and (max-width: 600px) {
+    .robo {
+      top: 34px;
+      left: 378px;
+    }
+    .vector {
+      top: 292px;
+      left: 344px;
+    }
+    .roda {
+      top: 350px;
+      left: 600px;
+    }
+    .left-content p {
+      line-height: 20px;
+    }
+  } */
 </style>

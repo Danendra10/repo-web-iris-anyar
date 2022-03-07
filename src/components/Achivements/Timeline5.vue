@@ -30,91 +30,91 @@ export default {
           id: 1,
           title: "2021",
           dotsColor: "#65A7DB",
-          style: "yearTitle my-4",
+          style: "yearTitle my-4 color-white",
           sizing: "large",
         },
         {
           id: 2,
           title: "Kontes Robot Indonesia",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 color-white",
           sizing: "small",
         },
         {
           id: 3,
           title: "Second Place on 'KRSBI Regional II'",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 4,
           title: "Second Place on National KRSBI",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 5,
           title: "Best Design on National KRSBI",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 6,
           title: "Robocup",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 color-white",
           sizing: "small",
         },
         {
           id: 7,
           title: "Sixth Place Technical Challenge RoboCup",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 8,
           title: "Seventh Place Scientific Challenge RoboCup",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 9,
           title: "Robocup Asia",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 color-white",
           sizing: "small",
         },
         {
           id: 10,
           title: "Second Place Video Challenge",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 11,
           title: "Fourth Place Scientific Challenge",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 12,
           title: "2019 Recap",
           dotsColor: "#65A7DB",
-          style: "recap my-4",
+          style: "recap my-4 color-white",
           sizing: "small",
         },
         {
           id: 13,
           title: "2020",
           dotsColor: "#65A7DB",
-          style: "nextYear",
+          style: "nextYear color-white",
           sizing: "large",
         },
       ],
@@ -133,7 +133,6 @@ export default {
   line-height: 59px;
   text-align: right;
 
-  color: #ffffff;
 }
 
 .contestTitle {
@@ -144,7 +143,6 @@ export default {
   line-height: 29px;
   text-align: right;
 
-  color: #ffffff;
 }
 
 .achivements {
@@ -156,7 +154,6 @@ export default {
   text-align: right;
   font-feature-settings: "kern" off;
 
-  color: #F6FDFC!important;
 }
 
 .recap,
@@ -168,10 +165,12 @@ export default {
   line-height: 29px;
   text-align: right;
 
-  color: #ffffff;
 }
 
 .theme--light.v-timeline::before {
     background: rgba(255, 255, 255, 1);
+}
+.color-white{
+  color: #fff!important;
 }
 </style>

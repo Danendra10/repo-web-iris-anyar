@@ -15,7 +15,7 @@
           <h1 style="color: #fff" class="contact-us-footer-title text-center">
             Contact Us!
           </h1>
-          <h4 class="contact-us-footer-content">
+          <h4 class="contact-us-footer-content text-center">
             Laboratorium Workshop, Lantai II, Pusat Robotika ITSJl. Teknik
             Kimia, Kampus ITS Sukolilo, Surabaya, 60111+62
             822-3010-4565iris@its.ac.id

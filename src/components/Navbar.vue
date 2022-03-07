@@ -29,24 +29,24 @@
       <v-spacer></v-spacer>
       <div class="hidden-md-and-down">
         <v-btn href="/" text>
-          <i class="fas fa-home"></i>
+          <!-- <i class="fas fa-home"></i> -->
           <span class="mr-4">Home</span>
         </v-btn>
 
         <v-btn href="/publications" text>
-          <i class="fas fa-book-open"></i>
+          <!-- <i class="fas fa-book-open"></i> -->
           <span class="mr-4">Publication</span>
         </v-btn>
 
         <v-btn href="/achivements" text>
-          <i class="fas fa-medal"></i>
+          <!-- <i class="fas fa-medal"></i> -->
           <span class="mr-4">Achivement</span>
         </v-btn>
 
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on" text>
-              <i class="fas fa-trophy"></i>
+              <!-- <i class="fas fa-trophy"></i> -->
               <span class="mr-4">Competitions</span>
             </v-btn>
           </template>
@@ -68,7 +68,28 @@
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on" text>
-              <i class="fas fa-history"></i>
+              <!-- <i class="fas fa-trophy"></i> -->
+              <span class="mr-4">Robocup</span>
+            </v-btn>
+          </template>
+          <v-list>
+            <v-list-item
+              v-for="link in robocup"
+              :key="link.text"
+              router
+              :href="link.links"
+            >
+              <v-list-item-title>
+                {{ link.text }}
+              </v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+
+        <v-menu offset-y>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn v-bind="attrs" v-on="on" text>
+              <!-- <i class="fas fa-history"></i> -->
               <span class="mr-4">History</span>
             </v-btn>
           </template>
@@ -89,7 +110,7 @@
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on" text>
-              <i class="fas fa-search"></i>
+              <!-- <i class="fas fa-search"></i> -->
               <span class="mr-4">Find Out</span>
             </v-btn>
           </template>
@@ -219,6 +240,12 @@ export default {
         {
           text: "FIRA RoboWorldCup",
           links: "https://firaworldcup.org/ ",
+        },
+      ],
+      robocup: [
+        {
+          text: "Robocup Qualification 2022",
+          links: "/Robocup-2022",
         },
       ],
       history: [

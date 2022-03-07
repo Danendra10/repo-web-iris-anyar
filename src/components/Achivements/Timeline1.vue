@@ -30,56 +30,56 @@ export default {
           id: 1,
           title: "2017",
           dotsColor: "#65A7DB",
-          style: "yearTitle my-4",
+          style: "yearTitle my-4 color-white",
           sizing: "large",
         },
         {
           id: 2,
           title: "Kontes Robot Indonesia",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 color-white",
           sizing: "small",
         },
         {
           id: 3,
           title: "3rd Place in “KRSBI Regional IV”",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 4,
           title: "Best Robot Design in “KRSBI Regional IV”",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 5,
           title: "Best Robot Design on “KRSBI National”",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 6,
           title: "Best Inovation on “KRSBI National”",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },    
         {
           id: 10,
           title: "2017 Recap",
           dotsColor: "#65A7DB",
-          style: "recap my-4",
+          style: "recap my-4 color-white",
           sizing: "small",
         },
         {
           id: 11,
           title: "2018",
           dotsColor: "#65A7DB",
-          style: "nextYear",
+          style: "nextYear color-white",
           sizing: "large",
         },
       ],
@@ -98,7 +98,6 @@ export default {
   line-height: 59px;
   text-align: right;
 
-  color: #ffffff;
 }
 
 .contestTitle {
@@ -109,7 +108,6 @@ export default {
   line-height: 29px;
   text-align: right;
 
-  color: #ffffff;
 }
 
 .achivements {
@@ -121,7 +119,6 @@ export default {
   text-align: right;
   font-feature-settings: "kern" off;
 
-  color: #F6FDFC!important;
 }
 
 .recap,
@@ -133,10 +130,12 @@ export default {
   line-height: 29px;
   text-align: right;
 
-  color: #ffffff;
 }
 
 .theme--light.v-timeline::before {
     background: rgba(255, 255, 255, 1);
+}
+.color-white{
+  color: #fff!important;
 }
 </style>

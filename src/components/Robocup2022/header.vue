@@ -1,14 +1,19 @@
 <template>
-  <div class="text-center cta-area2 margin-top">
-    <p class="p-contact text-center">For Further Information</p>
-    <h2 class="h2-contact">You Can Contact Us On</h2>
+<div>
+  <div class="text-center cta-area2 d-flex flex-column" style="height:100%">
+    <h1 class="h1-contact text-center">ROBOCUP</h1>
+    <h1 class="h1-contact text-center">2022</h1>
+    <h2 class="text-center margin-about strip">ABOUT IRIS</h2>
+    <!-- <h2 class="h2-contact">You Can Contact Us On</h2>
     <a
-      href="./contactus"
+      href="/contactus"
       class="button strip"
       style="text-decoration: none"
       >Click Here!!</a
-    >
+    > -->
+    <p class="text-center margin-p">Get To Know The Team</p>
   </div>
+</div>
 </template>
 
 <script>
@@ -16,14 +21,30 @@ export default {};
 </script>
 
 <style>
-
+.margin-p
+{
+  margin-top: 10%;
+  font-weight: 100!important;
+  font-size: 30px;
+}
+.margin-about
+{
+  margin-top: 7%;
+}
+.h1-contact{
+  color: #fff;
+  font-weight: bold!important;;
+  font-size: 60px;
+  letter-spacing: 30px;
+}
 .cta-area2 {
   background: linear-gradient(
       179.37deg,
-      rgba(21, 17, 49, 0.8) 46.07%,
-      rgba(134, 129, 168, 0) 95.03%
+      rgba(21, 17, 49, 0.8) 60.07%,
+      rgba(134, 129, 168, 0) 100.03%
     ),
     url("../../../public/Home/robocup.png");
+  background-attachment: fixed;
   background-size: cover;
   background-position: center 70%;
   position: relative;
@@ -67,8 +88,8 @@ export default {};
   position: absolute;
   left: 67.18%;
   right: 6.17%;
-  top: 65.64%;
-  bottom: 33.64%;
+  top: 53.64%;
+  bottom: 45.64%;
 
   background: linear-gradient(
     90deg,
@@ -88,8 +109,8 @@ export default {};
   position: absolute;
   left: 6.14%;
   right: 67.42%;
-  top: 65.34%;
-  bottom: 33.94%;
+  top: 53.64%;
+  bottom: 45.64%;
 
   background: linear-gradient(
     270deg,
@@ -111,13 +132,13 @@ export default {};
   color: #fff !important;
 }
 
-.p-contact {
+/* .p-contact {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
   line-height: 22px;
-}
+} */
 
 .h2-contact {
   font-family: Montserrat;
@@ -138,10 +159,10 @@ export default {};
     font-size: 40px;
     line-height: 40px;   
   }
-  .p-contact{
+  /* .p-contact{
     font-size: 20px;
     line-height: 40px;   
-  }
+  } */
 }
 
 </style>

@@ -6,6 +6,7 @@ import ComingSoon from '../views/ComingSoon.vue'
 import Publications from '../views/Publications.vue'
 import Achivements from '../views/Achivements.vue'
 import ContactUs from '../views/ContactUs.vue'
+import Robocup2022 from '../views/Robocup2022.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/contactus',
     name: 'ContactUs',
     component: ContactUs
+  },
+  {
+    path: '/Robocup-2022',
+    name: 'Robocup2022',
+    component: Robocup2022
   },
 
   //hanya trial

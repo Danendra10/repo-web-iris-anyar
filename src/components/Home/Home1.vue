@@ -1,5 +1,5 @@
 <template>
-  <div style="padding: 0!important;">
+  <div style="padding: 0 !important">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1440 320"
@@ -12,28 +12,40 @@
       ></path>
     </svg>
 
-      <v-row class="d-flex justify-center align-center">
-      <v-col 
-      xl="6"
-      lg="6"
-      md="12"
-      data-aos="fade" 
-      class="pot-rel d-flex flex-column justify-md-center justify-sm-center ">
+    <v-row class="d-flex justify-center align-center">
+      <v-col
+        xl="6"
+        lg="6"
+        md="12"
+        sm="12"
+        xs="12"
+        data-aos="fade"
+        class="pot-rel d-flex flex-column justify-md-center justify-sm-center"
+      >
         <img
           src="../../../public/Home/Robots/left/left.png"
           data-aos="fade-right"
           data-aos-duration="3000"
           class="img-fluid"
-        >
+        />
       </v-col>
 
-      <v-col 
-      xl="6"
-      lg="6"
-      md="12"
-      class="d-flex flex-column justify-md-center justify-sm-center container-fluid"
-      id="right-content">
-          <iframe
+      <v-col
+        xl="6"
+        lg="6"
+        md="12"
+        sm="12"
+        xs="12"
+        class="
+          d-flex
+          flex-column
+          justify-md-start justify-sm-start
+          container-fluid
+          justify-center
+        "
+        id="right-content"
+      >
+        <iframe
             src="https://www.youtube.com/embed/b6oTI_k6TFU"
             title="YouTube video player"
             frameborder="0"
@@ -102,7 +114,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .top-background {
   position: absolute;
   top: 0;
@@ -121,8 +132,8 @@ export default {
   opacity: 0.5;
 }
 
-.pot-rel{
-    position: relative;
+.pot-rel {
+  position: relative;
 }
 .roboFront,
 .roboBack,
@@ -168,19 +179,42 @@ export default {
   // position: absolute;
   // top: 281px;
   border-radius: 2%;
+  @media only screen and (min-width: 768px) {
+    // position: absolute;
+    // top: 0px;
+    // left: 0px;
+  }
 }
 
-#right-content{
-  @media(max-width: 1260px)
-  {
+#right-content {
+  @media only screen and  (min-width: 1400px) {
     padding: 0 250px;
   }
-  @media(max-width: 631px){
-    margin-top: 100px
-  }  
-
-  @media(max-width: 631px){
-    margin-top: 80px;
+  @media only screen and  (min-width: 1200px) {
+    padding: 0 250px;
   }
+  @media only screen and (min-width: 992px) {
+    // padding: 0 0px;
+    // display: none !important;
+  }
+  @media only screen and (min-width: 768px) {
+    padding: 0 130px;
+    // display: none !important;
+  }
+  @media only screen and (min-width: 600px) {
+    padding: 0 30px;
+    // display: none !important;
+  }
+  @media only screen and (max-width: 600px) {
+    // padding: 0 0px;
+    display: none !important;
+  }
+  // @media(max-width: 631px){
+  //   margin-top: 100px
+  // }
+
+  // @media(max-width: 631px){
+  //   margin-top: 80px;
+  // }
 }
 </style>

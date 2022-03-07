@@ -87,6 +87,22 @@ export default {
   }
 }
 
+@media only screen and (max-width: 768px) 
+{
+  .publ h1 {
+    font-size: 50px;
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) 
+{
+  .publ h1 {
+    font-size: 30px;
+    padding: 40px 0;
+  }
+}
+
 @media (max-width: 1251px) {
 
   .publ {

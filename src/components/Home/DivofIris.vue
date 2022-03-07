@@ -15,7 +15,7 @@
           class="
             col-lg-3 col-sm-6
             revealtoRight
-            justify-content-center
+            justify-center
             align-items-center
             d-flex
           "

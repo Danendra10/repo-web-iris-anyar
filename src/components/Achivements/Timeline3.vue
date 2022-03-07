@@ -30,91 +30,91 @@ export default {
           id: 1,
           title: "2019",
           dotsColor: "#65A7DB",
-          style: "yearTitle my-4",
+          style: "yearTitle my-4 color-white",
           sizing: "large",
         },
         {
           id: 2,
           title: "Kontes Robot Indonesia",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 color-white",
           sizing: "small",
         },
         {
           id: 3,
           title: "First Position on 'KRSBI Regional IV'",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 4,
           title: "Best Design on 'KRSBI Regional IV'",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 5,
           title: "First Position on National KRSBI",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 6,
           title: "First Position on National KRSBI",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 7,
           title: "Robocup",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 color-white",
           sizing: "small",
         },
         {
           id: 8,
           title: "Fifth Place Middle Size League ROBOCUP",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 9,
           title: "FIRA RoboWorldCup",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 color-white",
           sizing: "small",
         },
         {
           id: 10,
           title: "Second Place Obstacle Avoidance FIRA Roboworldcup",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 11,
           title: "Second Place Localization FIRA Roboworldcup",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 color-white",
           sizing: "small",
         },
         {
           id: 12,
           title: "2019 Recap",
           dotsColor: "#65A7DB",
-          style: "recap my-4",
+          style: "recap my-4 color-white",
           sizing: "small",
         },
         {
           id: 13,
           title: "2020",
           dotsColor: "#65A7DB",
-          style: "nextYear",
+          style: "nextYear color-white",
           sizing: "large",
         },
       ],
@@ -132,8 +132,6 @@ export default {
   font-size: 48px;
   line-height: 59px;
   text-align: right;
-
-  color: #ffffff;
 }
 
 .contestTitle {
@@ -143,8 +141,6 @@ export default {
   font-size: 24px;
   line-height: 29px;
   text-align: right;
-
-  color: #ffffff;
 }
 
 .achivements {
@@ -155,8 +151,6 @@ export default {
   line-height: 15px;
   text-align: right;
   font-feature-settings: "kern" off;
-
-  color: #F6FDFC!important;
 }
 
 .recap,
@@ -167,11 +161,10 @@ export default {
   font-size: 24px;
   line-height: 29px;
   text-align: right;
-
-  color: #ffffff;
 }
 
 .theme--light.v-timeline::before {
     background: rgba(255, 255, 255, 1);
 }
+
 </style>

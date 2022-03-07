@@ -4,6 +4,7 @@
       <v-col
         lg="6"
         md="12"
+        sm="12"
         class="d-flex justify-content-center align-items-center"
       >
         <h2
@@ -97,7 +98,7 @@
               </v-card>
             </v-layout>
           </v-col>
-          <v-col lg="6" md="12">
+          <v-col lg="6" md="12" sm="12">
             <div
               class="d-flex flex-sm-column flex-md-column flex-lg-row my-5"
               v-for="components in component"
@@ -106,11 +107,9 @@
               <div
                 class="
                   media
-                  justify-content-center
+                  justify-sm-center
                   align-items-center
-                  d-inline-flex
-                  m-4
-                  my-4
+                  
                 "
               >
                 <img :src="components.src" :alt="components.alt" />
@@ -120,7 +119,7 @@
                   class="
                     media-body
                     text-sm-center text-md-center text-lg-start
-                    justify-content-center
+                    
                     d-flex
                     flex-column
                     w-100
@@ -361,5 +360,12 @@ form {
   /* identical to box height */
 
   color: #120d31;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .contact-us-title{
+    font-size: 70px;
+  }
 }
 </style>

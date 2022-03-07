@@ -28,77 +28,77 @@ export default {
           id: 1,
           title: "2018",
           dotsColor: "#65A7DB",
-          style: "yearTitle my-4",
+          style: "yearTitle my-4 black-color",
           sizing: "large",
         },
         {
           id: 2,
           title: "Kontes Robot Indonesia",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 black-color",
           sizing: "small",
         },
         {
           id: 3,
           title: "1st Place KRSBI Regional IV",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 black-color",
           sizing: "small",
         },
         {
           id: 4,
           title: "Best Strategy KRSBI Regional IV",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 black-color",
           sizing: "small",
         },
         {
           id: 5,
           title: "2nd Place KRSBI Nasional",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 black-color",
           sizing: "small",
         },
         {
           id: 6,
           title: "FIRA RoboWorldCup",
           dotsColor: "#65A7DB",
-          style: "contestTitle my-4",
+          style: "contestTitle my-4 black-color",
           sizing: "small",
         },
         {
           id: 7,
           title: "1st Place Passing Challenge",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 black-color",
           sizing: "small",
         },
         {
           id: 8,
           title: "3rd Place Obstacle Avoidance Challenge",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 black-color",
           sizing: "small",
         },
         {
           id: 9,
           title: "3rd Place Localozation Challenge",
           dotsColor: "#65A7DB",
-          style: "achivements my-4",
+          style: "achivements my-4 black-color",
           sizing: "small",
         },
         {
           id: 10,
           title: "2018 Recap",
           dotsColor: "#151131",
-          style: "recap my-4",
+          style: "recap my-4 black-color",
           sizing: "small",
         },
         {
           id: 11,
           title: "2019",
           dotsColor: "#151131",
-          style: "nextYear",
+          style: "nextYear black-color",
           sizing: "large",
         },
       ],
@@ -121,7 +121,6 @@ export default {
   line-height: 59px;
   text-align: right;
 
-  color: #ffffff;
 }
 
 .contestTitle {
@@ -132,7 +131,7 @@ export default {
   line-height: 29px;
   text-align: right;
 
-  color: #ffffff;
+
 }
 
 .achivements {
@@ -155,7 +154,8 @@ export default {
   font-size: 24px;
   line-height: 29px;
   text-align: right;
-
-  color: #ffffff;
+}
+.black-color{
+  color: #000!important;
 }
 </style>

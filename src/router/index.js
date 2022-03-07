@@ -48,16 +48,16 @@ const routes = [
   },
 
   //hanya trial
-  {
-    path: '/trial',
-    name: 'trial',
-    component: () => import(/* webpackChunkName: "about" */ '../views/trial.vue')
-  },
-  {
-    path: '/trial2',
-    name: 'trial2',
-    component: () => import(/* webpackChunkName: "about" */ '../views/trial2.vue')
-  },
+  // {
+  //   path: '/trial',
+  //   name: 'trial',
+  //   component: () => import(/* webpackChunkName: "about" */ '../views/trial.vue')
+  // },
+  // {
+  //   path: '/trial2',
+  //   name: 'trial2',
+  //   component: () => import(/* webpackChunkName: "about" */ '../views/trial2.vue')
+  // },
 ]
 
 const router = new VueRouter({
@@ -66,9 +66,4 @@ const router = new VueRouter({
   routes
 })
 
-// const routers = createRouter({
-//   history: createWebHistory(),
-// })
-
 export default router
-// export default routers

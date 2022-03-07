@@ -2,8 +2,8 @@
   <div>
     <v-row>
       <v-col lg6 md12 class="p-relative">
-        <img src="../../../public/Achivements/star1.png" alt="" class="px"/>
-        <img src="../../../public/Achivements/star2.png" alt="" class="pos"/>
+        <img src="../../../public/assets/Achivements/star1.png" alt="" class="px"/>
+        <img src="../../../public/assets/Achivements/star2.png" alt="" class="pos"/>
       </v-col>
 
       <v-col lg6 md12 class="pr">

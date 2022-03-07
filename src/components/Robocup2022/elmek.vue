@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center cta-area-tdp d-flex flex-column py-5" style="height: 100%">
+    <div class="text-center cta-area-tdp d-flex flex-column py-5" style="">
       <h1 class="h1-contact-elmek text-center">Electrical Mechanical Description Paper</h1>
       <h1 class="h1-contact-elmek text-center">2022</h1>
       <!-- <h2 class="text-center margin-about strip">Download Here!!!</h2> -->
@@ -216,5 +216,14 @@ p {
   font-weight: bold!important;;
   font-size: 30px;
   letter-spacing: 30px;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .h1-contact-elmek{
+    /* font-size: 5vw;
+    letter-spacing: 5px; */
+    display: none;
+  }
 }
 </style>

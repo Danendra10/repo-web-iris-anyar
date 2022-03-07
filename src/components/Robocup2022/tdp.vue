@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="text-center cta-area-tdp d-flex flex-column py-5" style="height: 100%">
-      <h1 class="h1-contact text-center">Team Description Paper</h1>
-      <h1 class="h1-contact text-center">2022</h1>
+      <h1 class="h1-contact-tdp text-center">Team Description Paper</h1>
+      <h1 class="h1-contact-tdp text-center">2022</h1>
       <!-- <h2 class="text-center margin-about strip">Download Here!!!</h2> -->
       <a
         href="/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
@@ -125,6 +125,17 @@ p {
 .descPaper {
   font-size: 19px;
   color: #1cc3b2;
+}
+
+.h1-contact-tdp{
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .h1-contact-tdp{
+    font-size: 5vw;
+  }
 }
 
 /* Loaders */

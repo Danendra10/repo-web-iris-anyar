@@ -4,8 +4,8 @@
       <Achivement />
       <TDP />
       <Papers />
-      <Elmek/>
-      <Video />
+      <!-- <Elmek/> -->
+      <!-- <Video /> -->
   </div>
 </template>
 
@@ -14,8 +14,8 @@ import Header from "@/components/Robocup2022/header.vue";
 import Achivement from "@/components/Robocup2022/achivements-list.vue";
 import TDP from "@/components/Robocup2022/tdp.vue";
 import Papers from "@/components/Robocup2022/papers.vue";
-import Elmek from "@/components/Robocup2022/elmek.vue"
-import Video from "@/components/Robocup2022/video.vue";
+// import Elmek from "@/components/Robocup2022/elmek.vue"
+// import Video from "@/components/Robocup2022/video.vue";
 
 
 export default {
@@ -25,8 +25,8 @@ export default {
         Achivement,
         TDP,
         Papers,
-        Elmek,
-        Video
+        // Elmek,
+        // Video
     },
 };
 </script>

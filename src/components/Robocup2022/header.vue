@@ -1,8 +1,8 @@
 <template>
 <div>
   <div class="text-center cta-area2 d-flex flex-column" style="height:100%">
-    <h1 class="h1-contact text-center">ROBOCUP</h1>
-    <h1 class="h1-contact text-center">2022</h1>
+    <h1 class="h1-contact-robocup text-center">ROBOCUP</h1>
+    <h1 class="h1-contact-robocup text-center">2022</h1>
     <h2 class="text-center margin-about strip">ABOUT IRIS</h2>
     <!-- <h2 class="h2-contact">You Can Contact Us On</h2>
     <a
@@ -21,6 +21,12 @@ export default {};
 </script>
 
 <style>
+@media only screen and (max-width: 600px)
+{
+  .h1-contact-robocup{
+    font-size: 5vw;
+  }
+}
 .margin-p
 {
   margin-top: 10%;
@@ -31,10 +37,10 @@ export default {};
 {
   margin-top: 7%;
 }
-.h1-contact{
+.h1-contact-robocup{
   color: #fff;
   font-weight: bold!important;;
-  font-size: 60px;
+  /* font-size: 60px; */
   letter-spacing: 30px;
 }
 .cta-area2 {

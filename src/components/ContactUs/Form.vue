@@ -19,7 +19,7 @@
         md="12"
         class="d-flex justify-content-end align-items-end"
       >
-        <img src="../../../public/ContactUs/Group.png" width="20%" alt="" class="d-flex justify-content-end align-items-center spin"/>
+        <img src="../../../public/ContactUs/Group.png" width="20%" alt="" class="d-flex justify-content-end align-items-center"/>
       </v-col>
     </v-row>
     <v-app :class="{ 'pa-3': $vuetify.breakpoint.smAndUp }" :dark="darkTheme">

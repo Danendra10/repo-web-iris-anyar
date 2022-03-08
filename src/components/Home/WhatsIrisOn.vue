@@ -4,7 +4,7 @@
       <v-col 
       cols="7" 
       xl="7"
-      class="d-flex flex-column align-center justify-center pt-4">
+      class="d-flex flex-column align-center justify-center">
         <div class="event-text container ">
           <h2>What IRIS on right now?</h2>
           <h3 id="event-special">IRIS on</h3>
@@ -132,7 +132,7 @@ h2#event-special{
     display: none;
   }
   #on-event{
-    margin-top: 100px;
+    margin-top: 0px;
   }
 } 
 @media only screen and (min-width: 1200px) 
@@ -141,7 +141,7 @@ h2#event-special{
     display: none;
   }
   #on-event{
-    margin-top: 50vw;
+    margin-top: 0;
   }
 } 
 
@@ -151,7 +151,7 @@ h2#event-special{
     display: none;
   }
   #on-event{
-    margin-top: 50vw;
+    margin-top: 0;
   }
 
 }
@@ -162,10 +162,10 @@ h2#event-special{
     display: none;
   }
   #on-event{
-    margin-top: 50vw;
+    margin-top: 0;
   }
   p#event-text-text{
-    line-height: 30px;
+    line-height: 25px;
   }
   .event-text container h2{
     font-size: 20px;
@@ -178,13 +178,13 @@ h2#event-special{
     display: none;
   }
   #on-event{
-    margin-top: 50vw;
+    margin-top: 0;
   }
   .event-text h2{
     font-size: 60px;
   }
   .event-text-text{
-    font-size: 30px;
+    font-size: 10px;
   }
 }
 
@@ -194,13 +194,16 @@ h2#event-special{
     display: none;
   }
   #on-event{
-    margin-top: 50vw;
+    margin-top: 0;
   }
   .event-text h2{
     font-size: 60px;
   }
   .event-text-text{
     font-size: 30px;
+  }
+  .special-img-5{
+    display: none;
   }
 }
 

@@ -7,29 +7,23 @@
     </div>
 
     <v-row class="p-relative">
-      <v-col xl="6"
-        lg="6"
-        md="12"
-        sm="12"
-         class="left-content">
+      <v-col xl="6" lg="6" md="12" sm="12" class="left-content">
         <p>
-          ITS' Robot with Intellegence System, or known as IRIS is Institut
-          Teknologi Sepuluh Nopember (ITS) Robotic team focusing on autonomous
-          soccer playing robots. Since it’s development in 2014, IRIS ITS has
-          competed in the soccer robotic league since 2017 and managed to get a
-          lot of achivements. The team consist of students of Institut Teknologi
-          Sepuluh Nopember Surabaya. To build a great team and a robot that is
-          capable of playing football, the team is divided into 4 divisions
-          which are mechanical division, electrical division, programming
-          division, and official division.
+          ITS Robot with Intelligence System or known as IRIS is a Robotics team
+          Institut Teknologi Sepuluh Nopember (ITS) which focuses on autonomous
+          soccer game robots. Since being developed in 2017, IRIS ITS has
+          competed in soccer robotics especially middle size league, since 2017
+          and managed to make many achievements. The team consists of students
+          of Institut Teknologi Sepuluh Nopember Surabaya. To build a great team
+          and robots that are capable of playing soccer, the team is divided
+          into 4 divisions, namely the mechanical electrical, programming, and
+          official. In addition to his research in the field of robotic soccer
+          games, the research development of the IRIS team can be used in world
+          industrial automation, control, health, and the emergence of imagery.
         </p>
       </v-col>
 
-      <v-col xl="6"
-        lg="6"
-        md="12"
-        sm="12"
-         class="right-content">
+      <v-col xl="6" lg="6" md="12" sm="12" class="right-content">
         <h2>What is</h2>
         <h2 class="mt-5">IRIS?</h2>
         <!-- <div class="robo-pos">
@@ -42,7 +36,12 @@
             class=""
           />
         </div> -->
-        <img src="../../../public/Home/AboutTeam/Group1.png" alt="" style=" transform: scale(1.5); float: right;" class="robot-kanan">
+        <img
+          src="../../../public/Home/AboutTeam/Group1.png"
+          alt=""
+          style="transform: scale(1.2); float: right"
+          class="robot-kanan"
+        />
       </v-col>
     </v-row>
   </div>
@@ -78,17 +77,16 @@ export default {
 </script>
 
 <style>
-.p-relative{
+.p-relative {
   position: relative;
 }
 * {
   font-family: Montserrat !important;
 }
-.robo-pos{
-position: absolute;
-top: 0;
-left: 0;
-  
+.robo-pos {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .separator {
   margin-top: 5%;
@@ -128,7 +126,7 @@ left: 0;
   margin: 10px auto;
   font-weight: bold;
   font-family: Montserrat;
-  font-size: 50px;
+  font-size: 37px;
   font-style: normal;
   font-weight: 700;
   line-height: 29px;
@@ -160,101 +158,30 @@ left: 0;
   left: 520px;
   z-index: 3;
 }
-@media only screen and (max-width: 600px) 
-{
+@media only screen and (min-width: 768px) {
+  .right-content {
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .right-content {
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
   /* .robot-kanan{
     transform: scale(1);
     overflow:hidden;
     
   } */
-  .right-content{
+  .right-content {
     display: none;
   }
-  .right-aboutteam{
+  .right-aboutteam {
     width: 10%;
   }
-  .p-relative{
+  .p-relative {
     max-width: 80%;
   }
 }
-  /* @media (max-width: 1400px) {
-    .robo {
-      top: 418px;
-      left: 530px;
-    }
-    .vector {
-      top: 688px;
-      left: 470px;
-    }
-    .roda {
-      top: 600px;
-      left: 300px;
-    }
-  }
-  @media (max-width: 1200px) {
-    .robo {
-      top: 318px;
-      left: 980px;
-    }
-    .vector {
-      top: 588px;
-      left: 870px;
-    }
-    .roda {
-      display: none;
-      top: 630px;
-      left: 550px;
-    }
-  }
-
-  @media only screen and (max-width: 992px) {
-    .robo {
-      top: 180px;
-      left: 800px;
-    }
-    .vector {
-      top: 450px;
-      left: 700px;
-    }
-    .roda {
-      top: 350px;
-      left: 600px;
-    }
-  }
-
-  @media only screen and (max-width: 768px) {
-    .robo {
-      top: 90px;
-      left: 550px;
-    }
-    .vector {
-      top: 350px;
-      left: 518px;
-    }
-    .roda {
-      top: 350px;
-      left: 600px;
-    }
-    .left-content p {
-      line-height: 30px;
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    .robo {
-      top: 34px;
-      left: 378px;
-    }
-    .vector {
-      top: 292px;
-      left: 344px;
-    }
-    .roda {
-      top: 350px;
-      left: 600px;
-    }
-    .left-content p {
-      line-height: 20px;
-    }
-  } */
 </style>

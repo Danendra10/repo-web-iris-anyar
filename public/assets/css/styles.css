@@ -2640,12 +2640,6 @@ h1.heading {
   display: block;
   bottom: 25px;
 }
-
-#on-event {
-  position: relative;
-  background: #151131;
-  padding: 20px;
-}
 div.event-text {
   position: relative;
 }

@@ -123,7 +123,7 @@ export default {};
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 37px;
   line-height: 29px;
 
   color: #e8e1f0;

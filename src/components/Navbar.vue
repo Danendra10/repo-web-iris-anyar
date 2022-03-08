@@ -178,6 +178,29 @@
             </v-list>
           </v-menu>
         </v-list-item>
+        
+        <v-list-item>
+          <v-menu offset-y>
+          <template v-slot:activator="{ on, attrs }">
+            <v-btn v-bind="attrs" v-on="on" text>
+              <!-- <i class="fas fa-trophy"></i> -->
+              <span class="mr-4">Robocup</span>
+            </v-btn>
+          </template>
+          <v-list>
+            <v-list-item
+              v-for="link in robocup"
+              :key="link.text"
+              router
+              :href="link.links"
+            >
+              <v-list-item-title>
+                {{ link.text }}
+              </v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
+        </v-list-item>
 
         <v-list-item>
           <v-menu offset-y>

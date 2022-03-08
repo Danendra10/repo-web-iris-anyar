@@ -7,7 +7,7 @@
     <div>
       <v-row style="padding: 0 60px; margin-top: 70px">
         <v-col
-          class="top"
+          class="top "
           lg="10"
           md="12"
           data-aos="fade-left"
@@ -18,7 +18,7 @@
 
         <v-col class="d-flex justify-end">
           <a
-            href="/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
+            href="http://../../../public/assets/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
             target="_blank"
           >
             <v-btn
@@ -166,36 +166,60 @@ p {
     transform: rotate(360deg);
   }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width: 1400px) {
   .top .teamDesc {
     width: 1000px;
     padding-left: 115px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .top .teamDesc {
-    width: 1000px;
-    padding-left: 115px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .top .teamDesc {
-    width: 1000px;
-    padding-left: 115px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .top .teamDesc {
-    width: 674px;
-    padding-left: 106px;
-    font-size: 20px;
   }
   .teamDesc::after{
     min-width: 50px;
   }
   .teamDesc::before{
     min-width: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .top .teamDesc {
+    width: 1000px;
+    padding-left: 115px;
+  }
+  .teamDesc::after{
+    min-width: 50px;
+  }
+  .teamDesc::before{
+    min-width: 50px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .top .teamDesc {
+    width: 1000px;
+    padding-left: 115px;
+  }
+  .teamDesc::after{
+    min-width: 50px;
+  }
+  .teamDesc::before{
+    min-width: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .top .teamDesc {
+    width: 674px;
+    padding-left: 106px;
+    font-size: 20px;
+  }
+  .teamDesc::after .teamDesc::before, .teamPaper::after, .teamPaper::before{
+    /* min-width: 50px; */
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px)
+{
+  .teamDesc::after .teamDesc::before, .teamPaper::after, .teamPaper::before{
+    /* min-width: 50px; */
+    display: none;
   }
 }
 
@@ -205,11 +229,10 @@ p {
     padding-left: 68px;
     font-size: 17px;
   }
-  .teamDesc::after{
-    min-width: 50px;
-  }
-  .teamDesc::before{
-    min-width: 50px;
+  .teamDesc::after .teamDesc::before, .teamPaper::after, .teamPaper::before{
+    /* min-width: 50px; */
+    display: none;
   }
 }
+
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-center cta-area-tdp d-flex flex-column py-5" style="">
+    <div class="text-center cta-area-elmek d-flex flex-column py-5" style="">
       <h1 class="h1-contact-elmek text-center">Electrical Mechanical Description Paper</h1>
       <h1 class="h1-contact-elmek text-center">2022</h1>
       <!-- <h2 class="text-center margin-about strip">Download Here!!!</h2> -->
@@ -61,23 +61,18 @@ export default {
 </script>
 
 <style>
-* {
-  font-family: Montserrat;
-}
-a {
-  text-decoration: none;
-}
-.cta-area-tdp {
+.cta-area-elmek {
   background: linear-gradient(
       179.37deg,
       rgba(21, 17, 49, 0.8) 60.07%,
       rgba(134, 129, 168, 0) 100.03%
     ),
-    url("../../../public/Home/kri-21.jpg");
+    url("../../../public/Home/kri-21-2.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center 70%;
   position: relative;
+  padding: 130px 0;
   z-index: 1;
 }
 .top .teamDesc {
@@ -204,7 +199,8 @@ p {
     font-size: 17px;
   }
   .teamDesc::after {
-    min-width: 50px;
+    /* min-width: 50px; */
+    display: none;
   }
   .teamDesc::before {
     min-width: 50px;
@@ -221,9 +217,9 @@ p {
 @media only screen and (max-width: 600px)
 {
   .h1-contact-elmek{
-    /* font-size: 5vw;
-    letter-spacing: 5px; */
-    display: none;
+    font-size: 5vw;
+    letter-spacing: 5px;
+    /* display: none; */
   }
 }
 </style>

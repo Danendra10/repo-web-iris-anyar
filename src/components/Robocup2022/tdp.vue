@@ -5,7 +5,7 @@
       <h1 class="h1-contact-tdp text-center">2022</h1>
       <!-- <h2 class="text-center margin-about strip">Download Here!!!</h2> -->
       <a
-        href="/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
+        href="file:///../../../public/assets/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
         target="_blank"
         class="text-center margin-about strip"
       >
@@ -201,10 +201,12 @@ p {
     font-size: 20px;
   }
   .teamDesc::after {
-    min-width: 50px;
+    /* min-width: 50px; */
+    display: none;
   }
   .teamDesc::before {
-    min-width: 50px;
+    /* min-width: 50px; */
+    display: none;
   }
 }
 

@@ -112,8 +112,6 @@ left: 0;
 .left-content p {
   font-family: Montserrat;
   font-style: normal;
-  font-size: 2vw;
-  line-height: 60px;
   text-align: justify;
   margin: 0 auto;
   /* width: 800px; */
@@ -175,6 +173,10 @@ left: 0;
   }
   .p-relative{
     max-width: 80%;
+  }
+  .left-content{
+    font-size: 10vw;
+    line-height: 20px;
   }
 }
   /* @media (max-width: 1400px) {

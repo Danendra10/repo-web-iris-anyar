@@ -98,7 +98,6 @@ a {
 
 .teamDesc::after {
   content: "";
-  display: block;
   height: 2px;
   min-width: 100px;
   background-color: #3a414e;
@@ -110,7 +109,6 @@ a {
 
 .teamDesc::before {
   content: "";
-  display: block;
   height: 2px;
   min-width: 200px;
   background-color: #3a414e;
@@ -206,10 +204,12 @@ p {
     font-size: 17px;
   }
   .teamDesc::after{
-    min-width: 50px;
+    /* min-width: 50px; */
+    display: none;
   }
   .teamDesc::before{
-    min-width: 50px;
+    /* min-width: 50px; */
+    display: none;
   }
 }
 </style>

@@ -110,8 +110,6 @@ export default {
 .left-content p {
   font-family: Montserrat;
   font-style: normal;
-  font-size: 2vw;
-  line-height: 60px;
   text-align: justify;
   margin: 0 auto;
   /* width: 800px; */
@@ -182,6 +180,10 @@ export default {
   }
   .p-relative {
     max-width: 80%;
+  }
+  .left-content{
+    font-size: 10vw;
+    line-height: 20px;
   }
 }
 </style>

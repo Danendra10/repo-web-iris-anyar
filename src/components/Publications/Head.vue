@@ -61,21 +61,21 @@ export default {
 
   transform: scale(1.5);
 }
-@media only screen and (max-width: 1400px) 
+@media only screen and (min-width: 1400px) 
 {
   .publ h1 {
     font-size: 90px;
     padding: 170px 0;
   }
 }
-@media only screen and (max-width: 1200px) 
+@media only screen and (min-width: 1200px) 
 {
   .publ h1 {
     font-size: 120px;
     padding: 170px 0;
   }
 } 
-@media only screen and (max-width: 992px) 
+@media only screen and (min-width: 992px) 
 {
   .publ h1 {
     font-size: 80px;
@@ -83,7 +83,7 @@ export default {
   }
 }
 
-@media only screen and (max-width: 768px) 
+@media only screen and (min-width: 768px) 
 {
   .publ h1 {
     font-size: 50px;
@@ -91,7 +91,7 @@ export default {
   }
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (min-width: 600px) 
 {
   .publ h1 {
     font-size: 30px;
@@ -99,31 +99,11 @@ export default {
   }
 }
 
-@media (max-width: 1251px) {
-
-  .publ {
-    justify-content: center;
-  }
-}
-@media (max-width: 351px) {
-  .publ h1 {
-    font-size: 51px;
-  }
-}
-@media (max-width: 835px) {
-  .bottom-assets {
-    position: absolute;
-    left: 62.4%;
-    right: 14.48%;
-    top: 140.03%;
-    bottom: 7.47%;
-    /* display: flex; */
-
-    transform: scale(1);
-  }
-
-  .header-publication .strip {
-    width: 63%;
+@media only screen and (max-width: 600px){
+  .publ h1{
+    font-size: 30px;
+    padding: 40px 0;
+    line-height: 40px;
   }
 }
 </style>

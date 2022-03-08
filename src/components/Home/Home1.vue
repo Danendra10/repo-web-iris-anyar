@@ -36,12 +36,30 @@
         md="12"
         sm="12"
         xs="12"
+        data-aos="fade"
+        class="pot-rel d-flex  justify-center"
+      >
+        <iframe
+            src="https://www.youtube.com/embed/b6oTI_k6TFU"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="iframe-yt img-fluid"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          ></iframe>
+      </v-col>
+
+      <!-- <v-col
+        xl="6"
+        lg="6"
+        md="12"
+        sm="12"
+        xs="12"
         class="
           d-flex
           flex-column
-          justify-md-start justify-sm-start
-          container-fluid
-          justify-center
+          justify-md-center justify-sm-start          
         "
         id="right-content"
       >
@@ -55,7 +73,7 @@
             data-aos="fade-left"
             data-aos-duration="3000"
           ></iframe>
-      </v-col>
+      </v-col> -->
     </v-row>
   </div>
 </template>
@@ -174,57 +192,57 @@ export default {
   z-index: 6;
 }
 .iframe-yt {
-  width: 560px;
-  height: 315px;
+  // width: 560px;
+  // height: 315px;
   // position: absolute;
   // top: 281px;
   border-radius: 2%;
-  @media only screen and  (min-width: 1400px) {
-  }
-  @media only screen and  (min-width: 1200px) {
-  }
-  @media only screen and (min-width: 992px) {
-  }
-  @media only screen and (min-width: 768px) {
-  }
-  @media only screen and (min-width: 600px) {
-  }
-  @media only screen and (max-width: 600px) {
-    max-width: 300px;
-    max-height: 200px;
-  }
-}
-
-#right-content {
-  @media only screen and  (min-width: 1400px) {
-    padding: 0 250px;
-  }
-  @media only screen and  (min-width: 1200px) {
-    padding: 0 250px;
-  }
-  @media only screen and (min-width: 992px) {
-    // padding: 0 0px;
-    // display: none !important;
-  }
-  @media only screen and (min-width: 768px) {
-    padding: 0 130px;
-    // display: none !important;
-  }
-  @media only screen and (min-width: 600px) {
-    padding: 0 30px;
-    // display: none !important;
-  }
-  @media only screen and (max-width: 600px) {
-    padding: 0 25%;
-    // display: none !important;
-  }
-  // @media(max-width: 631px){
-  //   margin-top: 100px
+  // @media only screen and  (min-width: 1400px) {
   // }
-
-  // @media(max-width: 631px){
-  //   margin-top: 80px;
+  // @media only screen and  (min-width: 1200px) {
+  // }
+  // @media only screen and (min-width: 992px) {
+  // }
+  // @media only screen and (min-width: 768px) {
+  // }
+  // @media only screen and (min-width: 600px) {
+  // }
+  // @media only screen and (max-width: 600px) {
+  //   max-width: 300px;
+  //   max-height: 200px;
   // }
 }
+
+// #right-content {
+//   @media only screen and  (min-width: 1400px) {
+//     padding: 0 250px;
+//   }
+//   @media only screen and  (min-width: 1200px) {
+//     padding: 0 250px;
+//   }
+//   @media only screen and (min-width: 992px) {
+//     // padding: 0 0px;
+//     // display: none !important;
+//   }
+//   @media only screen and (min-width: 768px) {
+//     padding: 0 50%;
+//     // display: none !important;
+//   }
+//   @media only screen and (min-width: 600px) {
+//     padding: 0 30px;
+//     // display: none !important;
+//   }
+//   @media only screen and (max-width: 600px) {
+//     padding: 0 25%;
+//     // display: none !important;
+//   }
+//   // @media(max-width: 631px){
+//   //   margin-top: 100px
+//   // }
+
+//   // @media(max-width: 631px){
+//   //   margin-top: 80px;
+//   // }
+// }
 
 </style>

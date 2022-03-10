@@ -8,6 +8,7 @@
       <Video />
       <Declare />
       <Mac />
+      <Contrib />
   </div>
 </template>
 
@@ -18,8 +19,9 @@ import TDP from "@/components/Robocup2022/tdp.vue";
 import Papers from "@/components/Robocup2022/papers.vue";
 import Elmek from "@/components/Robocup2022/elmek.vue"
 import Video from "@/components/Robocup2022/video.vue";
-import Mac from "@/components/Robocup2022/mac.vue"
-import Declare from "@/components/Robocup2022/declaration.vue"
+import Mac from "@/components/Robocup2022/mac.vue";
+import Declare from "@/components/Robocup2022/declaration.vue";
+import Contrib from "@/components/Robocup2022/contribution-list.vue";
 
 
 export default {
@@ -33,7 +35,8 @@ export default {
         Elmek,
         Video,
         Mac,
-        Declare
+        Declare,
+        Contrib
     },
 };
 </script>

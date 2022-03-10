@@ -37,17 +37,17 @@
         sm="12"
         xs="12"
         data-aos="fade"
-        class="pot-rel d-flex  justify-center"
+        class="pot-rel d-flex justify-center"
       >
         <iframe
-            src="https://www.youtube.com/embed/b6oTI_k6TFU"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="iframe-yt img-fluid"
-            data-aos="fade-left"
-            data-aos-duration="3000"
-          ></iframe>
+          src="https://www.youtube.com/embed/b6oTI_k6TFU"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="iframe-yt img-fluid"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+        ></iframe>
       </v-col>
 
       <!-- <v-col
@@ -205,12 +205,12 @@ export default {
   // }
   // @media only screen and (min-width: 768px) {
   // }
-  // @media only screen and (min-width: 600px) {
-  // }
-  // @media only screen and (max-width: 600px) {
-  //   max-width: 300px;
-  //   max-height: 200px;
-  // }
+  @media only screen and (min-width: 600px) {
+    display: block;
+  }
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 // #right-content {
@@ -244,5 +244,4 @@ export default {
 //   //   margin-top: 80px;
 //   // }
 // }
-
 </style>

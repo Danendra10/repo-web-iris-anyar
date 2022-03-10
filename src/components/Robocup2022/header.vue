@@ -1,19 +1,19 @@
 <template>
-<div>
-  <div class="text-center cta-area2 d-flex flex-column" style="height:100%">
-    <h1 class="h1-contact-robocup text-center">ROBOCUP</h1>
-    <h1 class="h1-contact-robocup text-center">2022</h1>
-    <h2 class="text-center margin-about strip">ABOUT IRIS</h2>
-    <!-- <h2 class="h2-contact">You Can Contact Us On</h2>
+  <div>
+    <div class="text-center cta-area2 d-flex flex-column" style="height: 100%">
+      <h1 class="h1-contact-robocup text-center">ROBOCUP</h1>
+      <h1 class="h1-contact-robocup text-center">2022</h1>
+      <h2 class="text-center margin-about strip">ABOUT IRIS</h2>
+      <!-- <h2 class="h2-contact">You Can Contact Us On</h2>
     <a
       href="/contactus"
       class="button strip"
       style="text-decoration: none"
       >Click Here!!</a
     > -->
-    <p class="text-center margin-p">Get To Know The Team</p>
+      <p class="text-center margin-p">Get To Know The Team</p>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -21,25 +21,50 @@ export default {};
 </script>
 
 <style>
-@media only screen and (max-width: 600px)
-{
-  .h1-contact-robocup{
+@media only screen and (min-width: 600px) {
+  .h1-contact-robocup {
     font-size: 5vw;
   }
 }
-.margin-p
-{
+@media only screen and (max-width: 600px) {
+  .h1-contact-robocup {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .h1-contact-robocup {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .h1-contact-robocup {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .h1-contact-robocup {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .h1-contact-robocup {
+    font-size: 3vw;
+  }
+}
+
+
+
+.margin-p {
   margin-top: 10%;
-  font-weight: 100!important;
+  font-weight: 100 !important;
   font-size: 30px;
 }
-.margin-about
-{
+.margin-about {
   margin-top: 7%;
 }
-.h1-contact-robocup{
+.h1-contact-robocup {
   color: #fff;
-  font-weight: bold!important;;
+  font-weight: bold !important;
   /* font-size: 60px; */
   letter-spacing: 30px;
 }
@@ -77,7 +102,7 @@ export default {};
 .button {
   display: inline-block;
   background-color: #1cc3b2;
-  color: #fff!important;  
+  color: #fff !important;
   font-size: 16px;
   font-weight: 600;
   border-radius: 30px;
@@ -159,16 +184,14 @@ export default {};
   margin-bottom: 2%;
 }
 
-@media only screen and (max-width: 600px)
-{
-  .h2-contact{
+@media only screen and (max-width: 600px) {
+  .h2-contact {
     font-size: 40px;
-    line-height: 40px;   
+    line-height: 40px;
   }
   /* .p-contact{
     font-size: 20px;
     line-height: 40px;   
   } */
 }
-
 </style>

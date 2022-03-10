@@ -12,7 +12,7 @@
         @click="mobileDrawer = !mobileDrawer"
         class="px-5 hidden-md-and-up"
       >
-        <i class="fas fa-bars"></i>
+        <i class="fa-solid fa-bars"></i>
       </v-btn>
 
       <a class="d-flex align-center mx-5">
@@ -29,24 +29,24 @@
       <v-spacer></v-spacer>
       <div class="hidden-md-and-down">
         <v-btn href="/" text>
-          <!-- <i class="fas fa-home"></i> -->
+          <i class="fas fa-home"></i>
           <span class="mr-4">Home</span>
         </v-btn>
 
         <v-btn href="/publications" text>
-          <!-- <i class="fas fa-book-open"></i> -->
+          <i class="fas fa-book-open"></i>
           <span class="mr-4">Publication</span>
         </v-btn>
 
         <v-btn href="/achivements" text>
-          <!-- <i class="fas fa-medal"></i> -->
+          <i class="fas fa-medal"></i>
           <span class="mr-4">Achivement</span>
         </v-btn>
 
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on" text>
-              <!-- <i class="fas fa-trophy"></i> -->
+              <i class="fas fa-trophy"></i>
               <span class="mr-4">Competitions</span>
             </v-btn>
           </template>
@@ -68,7 +68,7 @@
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on" text>
-              <!-- <i class="fas fa-trophy"></i> -->
+              <i class="fa-solid fa-robot"></i>
               <span class="mr-4">Robocup</span>
             </v-btn>
           </template>
@@ -89,7 +89,7 @@
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on" text>
-              <!-- <i class="fas fa-history"></i> -->
+              <i class="fas fa-history"></i>
               <span class="mr-4">History</span>
             </v-btn>
           </template>
@@ -110,7 +110,7 @@
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on" text>
-              <!-- <i class="fas fa-search"></i> -->
+              <i class="fas fa-search"></i>
               <span class="mr-4">Find Out</span>
             </v-btn>
           </template>
@@ -131,9 +131,9 @@
     </v-app-bar>
 
     <v-navigation-drawer app v-model="mobileDrawer" class="d-flex flex-row hidden-md-and-up">
+      <!-- <br />
       <br />
-      <br />
-      <br />
+      <br /> -->
       <v-list-item>
         <v-btn class="mx-2" fab small @click="mobileDrawer = !mobileDrawer" icon>
           <v-icon dark> mdi-cancel </v-icon>

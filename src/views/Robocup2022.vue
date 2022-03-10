@@ -24,6 +24,7 @@ import Declare from "@/components/Robocup2022/declaration.vue"
 
 export default {
     name: "Robocup2022",
+    title: "Robocup 2022",
     components: {
         Header,
         Achivement,

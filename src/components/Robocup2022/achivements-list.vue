@@ -1,5 +1,8 @@
 <template>
-  <div style="width: 100%; background-color: #1cc3b2" class="text-center py-5">
+  <div
+    style="width: 100%; background-color: #1cc3b2"
+    class="text-center p-achive-list"
+  >
     <h1>Our Achivements</h1>
     <v-row>
       <v-col
@@ -13,7 +16,9 @@
           {{ achive.year }}
         </h1>
         <ul v-for="achivements in achive.achivements" :key="achivements.id">
-          <li class="achivement-list text-start px-5">{{ achivements.achivements }}</li>
+          <li class="achivement-list text-start px-5">
+            {{ achivements.achivements }}
+          </li>
         </ul>
       </v-col>
     </v-row>
@@ -42,7 +47,10 @@ export default {
             { achivements: "1. 1st Place on Regional KRSBI" },
             { achivements: "2. Best Strategy on Regional KRSBI" },
             { achivements: "3. 2nd Place on National KRSBI" },
-            { achivements: "4. 1st Place Passing Challenge on FIRA RoboWorldCup" },
+            {
+              achivements:
+                "4. 1st Place Passing Challenge on FIRA RoboWorldCup",
+            },
             {
               achivements:
                 "5. 3rd Place Obstacle Avoidance Challenge on FIRA RoboWorldCup",
@@ -56,14 +64,20 @@ export default {
         {
           id: 3,
           year: "2019",
-          achivements:[
-            {achivements: "1. 1st Place on Regional KRSBI"},
-            {achivements: "2. Best Design on Regional KRSBI"},
-            {achivements: "3. 1st Place on National KRSBI"},
-            {achivements: "4. 5th Place on Middle Size League on Robocup"},
-            {achivements: "5. 2nd Place Obstacle Avoidance on FIRA RoboWorldCup"},
-            {achivements: "6. 2nd Place Localization Challenge on FIRA RoboWorldCup"},
-          ]
+          achivements: [
+            { achivements: "1. 1st Place on Regional KRSBI" },
+            { achivements: "2. Best Design on Regional KRSBI" },
+            { achivements: "3. 1st Place on National KRSBI" },
+            { achivements: "4. 5th Place on Middle Size League on Robocup" },
+            {
+              achivements:
+                "5. 2nd Place Obstacle Avoidance on FIRA RoboWorldCup",
+            },
+            {
+              achivements:
+                "6. 2nd Place Localization Challenge on FIRA RoboWorldCup",
+            },
+          ],
         },
         {
           id: 4,
@@ -85,7 +99,8 @@ export default {
             { achivements: "4. 6th Place Technical Challenge on Robocup" },
             { achivements: "5. 7th Place Scientific Challenge on Robocup" },
             {
-              achivements: "6. 2nd Place Video Challenge on Robocup Asia Pacific",
+              achivements:
+                "6. 2nd Place Video Challenge on Robocup Asia Pacific",
             },
             {
               achivements:
@@ -96,9 +111,7 @@ export default {
         {
           id: 6,
           year: "2022",
-          achivements:[
-            {achivements: "Coming Soon...."},
-          ]
+          achivements: [{ achivements: "Coming Soon...." }],
         },
       ],
     };
@@ -107,8 +120,11 @@ export default {
 </script>
 
 <style>
+.p-achive-list {
+  padding: 100px 0;
+}
 .achivement-year {
-  color: #120D31;
+  color: #120d31;
   /* display: inline-block; */
   font-size: 24px;
   position: relative;
@@ -117,15 +133,43 @@ export default {
   /* padding-left: 115px; */
 }
 .achivement-list {
-  color: #120D31;
+  color: #120d31;
 }
-ul{
+ul {
   list-style: none;
 }
-ul li{
+ul li {
   margin-top: 10px;
 }
-h1{
-  font-size: 6vw;
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 3vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  h1 {
+    font-size: 3vw;
+  }
 }
 </style>

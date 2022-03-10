@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="text-center cta-area-elmek d-flex flex-column py-5" style="">
+    <div class="text-center cta-area-elmek d-flex flex-column" style="">
       <h1 class="h1-contact-elmek text-center">Electrical Mechanical Description Paper</h1>
       <h1 class="h1-contact-elmek text-center">2022</h1>
       <!-- <h2 class="text-center margin-about strip">Download Here!!!</h2> -->
       <a
-        href="/Publications/Files/TDP/ROBOCUP 2022_Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf"
+        href="assets/Publications/Files/TDP/ROBOCUP_2022_Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf"
         target="_blank"
         class="text-center margin-about strip"
       >
@@ -72,7 +72,7 @@ export default {
   background-size: cover;
   background-position: center 70%;
   position: relative;
-  padding: 130px 0;
+  padding: 100px 0;
   z-index: 1;
 }
 .top .teamDesc {

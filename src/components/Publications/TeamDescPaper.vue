@@ -18,7 +18,7 @@
 
         <v-col class="d-flex justify-end">
           <a
-            href="http://../../../public/assets/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
+            href="/assets/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
             target="_blank"
           >
             <v-btn

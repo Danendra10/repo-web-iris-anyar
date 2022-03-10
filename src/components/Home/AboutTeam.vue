@@ -160,6 +160,9 @@ export default {
   .right-content {
     display: block;
   }
+  .left-content{
+    font-size: 5vw;
+  }
 }
 @media only screen and (min-width: 600px) {
   .right-content {

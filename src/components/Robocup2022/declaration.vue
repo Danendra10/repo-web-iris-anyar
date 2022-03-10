@@ -63,7 +63,7 @@ export default {
   background-position: center 70%;
   position: relative;
   z-index: 1;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .cta-area-declaration h1 {

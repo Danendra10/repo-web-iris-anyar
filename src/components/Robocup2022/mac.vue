@@ -4,7 +4,7 @@
       <h1 class="h1-contact-mac text-center">MAC ADDRESSES</h1>
       <!-- <h2 class="text-center margin-about strip">Download Here!!!</h2> -->
       <a
-        href="/public/assets/Publications/Files/TDP/ROBOCUP 2022_Mechanical_and_Electrical_Description_with_Software_Flow_Chart.pdf"
+        href="/assets/Publications/Files/mac-address.txt"
         target="_blank"
         class="text-center margin-about"
       >
@@ -42,6 +42,37 @@ export default {
   background-position: center 70%;
   position: relative;
   z-index: 1;
-  padding: 150px 0;
+  padding: 100px 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .h1-contact-elmek {
+    font-size: 5vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .h1-contact-elmek {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .h1-contact-elmek {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .h1-contact-elmek {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .h1-contact-elmek {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .h1-contact-elmek {
+    font-size: 2vw;
+  }
 }
 </style>

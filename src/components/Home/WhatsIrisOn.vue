@@ -107,6 +107,7 @@ p#event-text-text {
 #on-event {
   position: relative;
   background: #151131;
+  padding: 100px 0;
 }
 #event-special {
   -webkit-text-stroke: 1px;

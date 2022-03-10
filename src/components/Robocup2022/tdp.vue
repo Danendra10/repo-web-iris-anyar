@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="text-center cta-area-tdp d-flex flex-column py-5" style="height: 100%">
+    <div class="text-center cta-area-tdp d-flex flex-column" style="height: 100%">
       <h1 class="h1-contact-tdp text-center">Team Description Paper</h1>
       <h1 class="h1-contact-tdp text-center">2022</h1>
       <!-- <h2 class="text-center margin-about strip">Download Here!!!</h2> -->
       <a
-        href="file:///../../../public/assets/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
+        href="assets/Publications/Files/TDP/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf"
         target="_blank"
         class="text-center margin-about strip"
       >
@@ -25,17 +25,33 @@
           Download
         </v-btn></a
       >
+      <!-- <v-btn
+          onclick="readFiles()"
+          depressed
+          color="#6DDCCF"
+          :loading="loading4"
+          :disabled="loading4"
+          @click="loader = 'loading4'"
+          lg="2"
+          md="12"
+          rounded
+          Plain
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          Download
+        </v-btn> -->
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  // methods: {
-  //     readFiles(){
-  //         window.open("eam_Description_Paper_IRIS_2021.pdf", "_blank");
-  //     }
-  // },
+  methods: {
+      readFiles(){
+          window.open("/assets/Publications/Files/TDP_IRIS_ROBOCUP_2022_THAILAND.pdf", "_blank");
+      }
+  },
 
   data() {
     return {
@@ -79,6 +95,7 @@ a {
   background-position: center 70%;
   position: relative;
   z-index: 1;
+  padding: 100px 0;
 }
 .top .teamDesc {
   display: inline-block;
@@ -130,10 +147,34 @@ p {
   color: #fff;
 }
 
-@media only screen and (max-width: 600px)
-{
-  .h1-contact-tdp{
+@media only screen and (min-width: 600px) {
+  .h1-contact-tdp {
     font-size: 5vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .h1-contact-tdp {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .h1-contact-tdp {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .h1-contact-tdp {
+    font-size: 5vw;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .h1-contact-tdp {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .h1-contact-tdp {
+    font-size: 2vw;
   }
 }
 

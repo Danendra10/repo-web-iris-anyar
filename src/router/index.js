@@ -23,7 +23,7 @@ const routes = [
   },
   {
     path: '/comingsoon',
-    name: 'ComingSoon',
+    name: 'Coming Soon',
     component: ComingSoon
   },
   {
@@ -38,12 +38,12 @@ const routes = [
   },
   {
     path: '/contactus',
-    name: 'ContactUs',
+    name: 'Contact Us',
     component: ContactUs
   },
   {
     path: '/Robocup-2022',
-    name: 'Robocup2022',
+    name: 'Robocup 2022',
     component: Robocup2022
   },
 
@@ -64,6 +64,11 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
+})
+
+router.beforeEach((to, from, next) => {
+  document.title = `${process.env.VUE_APP_TITLE} - ${to.name}`
+  next()
 })
 
 export default router
